@@ -72,7 +72,7 @@ class Projects extends React.Component {
 								<td><img src={listimg} height="20" width="20"/></td>
 								<td><img src={graphimg} height="20" width="20"/></td>
 								<td className="blue-grey-text  text-darken-4 font-medium"><label for="date-picker-1">Schedule Again</label>
-					               <DatePicker id={cmpgn.id} selected={that.state.startDate} onChange={that.handleChange} /></td>
+					               <input type="date" onChange={that.handleChange} /></td>
 							</tr>)});
 		return (
 			/*--------------------------------------------------------------------------------*/
